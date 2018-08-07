@@ -1,0 +1,31 @@
+[ERR!] cwd  : /home/puppy/Heroku/Proyectos/liberUservices/src
+[ERR!] os   : Linux 4.10.0-42-generic
+[ERR!] argv : "/usr/bin/node" "/usr/bin/tsd" "init" "-y"
+[ERR!] node : v8.9.3
+[ERR!] tsd  : 0.6.5
+[ERR!] Error: cannot overwrite file /home/puppy/Heroku/Proyectos/liberUservices/src/tsd.json
+[ERR!] CODE : undefined
+[ERR!] cannot overwrite file /home/puppy/Heroku/Proyectos/liberUservices/src/tsd.json
+[ERR!] If you need help, you may report this error at:
+    https://github.com/DefinitelyTyped/tsd/issues
+
+[ERR!] 
+VError: cannot overwrite file /home/puppy/Heroku/Proyectos/liberUservices/src/tsd.json
+    at /usr/lib/node_modules/tsd/build/tsd/logic/ConfigIO.js:22:27
+    at tryCatch1 (/usr/lib/node_modules/tsd/node_modules/bluebird/js/main/util.js:63:19)
+    at Promise$_callHandler [as _callHandler] (/usr/lib/node_modules/tsd/node_modules/bluebird/js/main/promise.js:695:13)
+    at Promise$_settlePromiseFromHandler [as _settlePromiseFromHandler] (/usr/lib/node_modules/tsd/node_modules/bluebird/js/main/promise.js:711:18)
+    at Promise$_settlePromiseAt [as _settlePromiseAt] (/usr/lib/node_modules/tsd/node_modules/bluebird/js/main/promise.js:868:14)
+    at Promise$_settlePromises [as _settlePromises] (/usr/lib/node_modules/tsd/node_modules/bluebird/js/main/promise.js:1006:14)
+    at Async$_consumeFunctionBuffer [as _consumeFunctionBuffer] (/usr/lib/node_modules/tsd/node_modules/bluebird/js/main/async.js:74:12)
+    at Async$consumeFunctionBuffer (/usr/lib/node_modules/tsd/node_modules/bluebird/js/main/async.js:37:14)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+[ERR!] tsd.json: {"version":"v4","repo":"borisyankov/DefinitelyTyped","ref":"master","path":"typings","bundle":"typings/tsd.d.ts","installed":{"serve-static/serve-static.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"express-serve-static-core/express-serve-static-core.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"express/express.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"node/node.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"mime/mime.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"body-parser/body-parser.d.ts":{"commit":"f46e80640829b7dc43a4030868c1e82889acdabd"},"morgan/morgan.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"cors/cors.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"winston/winston.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"},"moment/moment.d.ts":{"commit":"ead52a81845d0c01776728d31fc7e4efd314887b"}}}
+
+[ERR!] .tsdrc could not be retrieved
+
+[ERR!] Please include the following file with any support request:
+    /home/puppy/Heroku/Proyectos/liberUservices/src/tsd-debug.log
+
