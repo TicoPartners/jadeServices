@@ -1,11 +1,11 @@
 /// <reference path='../typings/tsd.d.ts' />
 "user strict";
 "use strict";
-var customer_1 = require('./../data/customer');
-var student_1 = require('./../data/student');
+var customer_1 = require("./../data/customer");
+var student_1 = require("./../data/student");
 var Route;
 (function (Route) {
-    var ServiceRouting = (function () {
+    var ServiceRouting = /** @class */ (function () {
         function ServiceRouting() {
         }
         ServiceRouting.prototype.all = function (req, res, next) {

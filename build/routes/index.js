@@ -2,7 +2,7 @@
 "use strict";
 var Route;
 (function (Route) {
-    var Index = (function () {
+    var Index = /** @class */ (function () {
         function Index() {
         }
         Index.prototype.all = function (req, res, next) {

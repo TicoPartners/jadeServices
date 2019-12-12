@@ -1,0 +1,8 @@
+{
+    "DataAccess": {
+        "dbname" : "jade",
+        "conn": {
+            "cs": "mongodb://jade:jadedb123@ds115472.mlab.com:15472/jade"
+        }
+    }
+}

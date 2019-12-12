@@ -1,11 +1,12 @@
 "use strict";
-var dataaccess_1 = require('./dataaccess');
+Object.defineProperty(exports, "__esModule", { value: true });
+var dataaccess_1 = require("./dataaccess");
 var collection = 'default';
 var assert = require('assert');
 var q = require('q');
 var mongodb = require('mongodb');
 var deferred = null;
-var BaseAccess = (function () {
+var BaseAccess = /** @class */ (function () {
     function BaseAccess() {
     }
     BaseAccess.setCollection = function (value) {

@@ -1,5 +1,6 @@
 "use strict";
-var Utilities = (function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+var Utilities = /** @class */ (function () {
     function Utilities() {
     }
     Utilities.isValidCallBack = function (callback) {

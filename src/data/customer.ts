@@ -13,6 +13,7 @@ class CustomerDataAccess {
   public static insert(customer:any): any {
     deferred = q.defer();
     DataAccess.OpenConnection(function(conn:any) {
+      console.log(conn);
       conn.collection(collection).insertOne(customer, function(err:any, result:any) {
         DataAccess.CloseConnection();
         assert.equal(null,err);

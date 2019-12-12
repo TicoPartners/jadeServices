@@ -3,17 +3,18 @@
 /// <reference path="typings/morgan/morgan.d.ts" />
 /// <reference path="typings/cors/cors.d.ts" />
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //Let's import express and other necessary middleware
-var express = require('express');
-var bodyParser = require('body-parser');
-var http = require('http');
-var cors = require('cors');
-var morgan = require('morgan');
+var express = require("express");
+var bodyParser = require("body-parser");
+var http = require("http");
+var cors = require("cors");
+var morgan = require("morgan");
 //Let's import your router files
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
-var serviceRouter = require('./routes/services');
-var HttpServer = (function () {
+var serviceRouter = require("./routes/services");
+var HttpServer = /** @class */ (function () {
     function HttpServer() {
         this.app = express();
         //configure express and logging stuff
@@ -41,7 +42,6 @@ var HttpServer = (function () {
         this.app.use(morgan('dev'));
         // catch 404 and forward to error handler
         this.app.use(function (err, req, res, next) {
-            var error = new Error("Not Found");
             err.status = 404;
             next(err);
         });

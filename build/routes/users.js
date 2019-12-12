@@ -2,7 +2,7 @@
 "use strict";
 var Route;
 (function (Route) {
-    var Users = (function () {
+    var Users = /** @class */ (function () {
         function Users() {
         }
         Users.prototype.all = function (req, res, next) {

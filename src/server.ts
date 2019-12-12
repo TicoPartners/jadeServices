@@ -25,6 +25,7 @@ class HttpServer {
     public static bootstrap(): HttpServer {
         return new HttpServer();
     }
+
     constructor() {
         this.app = express();
 
@@ -36,6 +37,7 @@ class HttpServer {
         //this.UsersRoutes();
         this.MainRouting();
     }
+    
     private ExpressConfiguration() {
         this.app.use(bodyParser.urlencoded({ extended: true }));
         this.app.use(bodyParser.json());
@@ -53,7 +55,6 @@ class HttpServer {
         this.app.use(morgan('dev'));
         // catch 404 and forward to error handler
         this.app.use(function(err: any, req: express.Request, res: express.Response, next: express.NextFunction) {
-            var error = new Error("Not Found");
             err.status = 404;
             next(err);
         });

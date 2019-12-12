@@ -1,7 +1,8 @@
 "use strict";
-var base_1 = require('./base');
+Object.defineProperty(exports, "__esModule", { value: true });
+var base_1 = require("./base");
 var collection = 'student';
-var StudentDataAccess = (function () {
+var StudentDataAccess = /** @class */ (function () {
     function StudentDataAccess() {
     }
     StudentDataAccess.find = function () {
